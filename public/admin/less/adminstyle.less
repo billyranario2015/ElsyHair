@@ -1,0 +1,137 @@
+html {
+	background-color: #2A2A2A;
+
+	body {
+		font-family: 'Open Sans', sans-serif;
+
+		section {
+
+
+			&#vertical-nav {
+				background-color: #1F1F1F;
+				position: absolute;
+				left: 0;
+				height: 100%;
+				padding: 10px 0;
+				z-index: 999;
+
+
+				#logo-box {
+					h3 {
+						color: #ddd;
+						margin-top: 0;
+					}
+				}
+
+				#nav-box {
+					.nav-list {
+						list-style: none;
+						padding: 0;
+						margin: 0;
+
+						li {
+							display: block;
+
+							a {
+								display: block;
+								color: #ddd;
+								padding: 6px 30px 6px 10px;
+								text-align: left;
+								border-top: 1px solid #373737;
+								border-bottom: 1px solid #060606;
+								text-decoration: none;
+								color: #919191;
+  								font-weight: 100;
+  								border-right: 1px solid #1F1F1F;
+
+  								i {
+  									margin-right: 10px;
+  								}
+
+								&:hover {
+									background-color: #323232;
+									border-right: 3px solid rgb(155, 32, 32);
+									color: #fff;
+
+									i {
+										color: rgb(155, 32, 32);
+									}
+								}
+							}
+
+							&.active {
+								a {
+									background-color: #323232;
+									border-right: 3px solid rgb(155, 32, 32);
+									color: #fff;
+
+									i {
+										color: rgb(155, 32, 32);
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			&#header {
+				background-color: #767676;
+  				border-bottom: 1px solid #FF4B4B;
+
+				.profile-box {
+					.profile-items {
+						list-style: none;
+						margin: 0;
+						padding: 0;
+						margin-right: 30px;
+
+						li {
+							display: inline-block;
+
+							a {
+								color: #A6A6A6;
+  								font-size: 2em;
+  								margin-right: 10px;
+
+  								&:hover {
+  									color: #9B2020;
+  								}
+							}
+						}
+					}
+				}
+			}
+
+			&#admincontents {
+				background-color: #D3D3D3;
+
+				.container {
+					width: 100%;
+					padding-left: 136px;
+
+					.content-title {
+						float: left;
+					}
+
+					.content-actions {
+						list-style: none;
+						padding: 0;
+						margin: 12px 0 0;
+					}
+
+					.item-box {
+						.item {
+							background-color: #ddd;
+							padding: 15px;
+							border-radius: 4px;
+							border: 1px solid #CBCBCB;
+							margin-bottom: 15px;
+							box-shadow: 2px 4px 0px rgba(182, 182, 182, 0.17);
+						}
+					}
+				}
+			}
+		}
+	}
+}
