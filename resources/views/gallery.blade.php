@@ -17,7 +17,10 @@
 			<div class="gallery-outer">
 				<div class="gallery-inner">
 					@foreach ($data['gallery_images'] as $gallery)
-						<a href="#" data-featherlight="/images/gallery/{{ $gallery }}"><img src="{{ asset('images/gallery'). '/' . $gallery }}" alt="alt images" class="wow flipInX"></a>
+						<a href="#" data-featherlight="/images/gallery/{{ $gallery }}">
+							<img src="{{ asset('images/gallery'). '/' . $gallery }}" alt="alt images" class="wow flipInX">
+							<div class="clearfix"></div>
+						</a>
 					@endforeach
 				</div>
 			</div>

@@ -12,11 +12,8 @@
 					    <img src="{{ asset('images/english.png')}}" alt=".."> English <span class="caret"></span>
 					  	</button>
 					  	<ul class="dropdown-menu" role="menu">
-						    <li><a href="#">Action</a></li>
-						    <li><a href="#">Another action</a></li>
-						    <li><a href="#">Something else here</a></li>
-						    <li class="divider"></li>
-						    <li><a href="#">Separated link</a></li>
+						    <li><a href="#">French</a></li>
+						    <li><a href="#">Spanish</a></li>
 					  	</ul>
 					</div>
 				</li>
@@ -40,20 +37,20 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 		      	</button>
-		      	<a class="navbar-brand" href="/">Elsy<span class="highlight">Hair</span></a>
+		      	<a class="navbar-brand" href="{{ url('/') }}">Elsy<span class="highlight">Hair</span></a>
 		    </div>
 
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      	<ul class="nav navbar-nav">
-			        <li @if ($data['pagename'] == 'home') class="active" @endif><a href="/">Home <span class="sr-only">(current)</span></a></li>
-			        <li @if ($data['pagename'] == 'gallery') class="active" @endif ><a href="/page/gallery">Gallery</a></li>
-			        <li @if ($data['pagename'] == 'shop') class="active" @endif><a href="/page/shop">Shop</a></li>
-			        <li @if ($data['pagename'] == 'contact') class="active" @endif><a href="/page/contact">Contact</a></li>
-			        <li @if ($data['pagename'] == 'news') class="active" @endif><a href="/page/news">News</a></li>
+			        <li @if ($data['pagename'] == 'home') class="active" @endif><a href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a></li>
+			        <li @if ($data['pagename'] == 'gallery') class="active" @endif ><a href="{{ url('/page/gallery') }}">Gallery</a></li>
+			        <li @if ($data['pagename'] == 'shop') class="active" @endif><a href="{{ url('/page/shop') }}">Shop</a></li>
+			        <li @if ($data['pagename'] == 'contact') class="active" @endif><a href="{{ url('/page/contact') }}">Contact</a></li>
+			        <li @if ($data['pagename'] == 'news') class="active" @endif><a href="{{ url('page/news') }}">News</a></li>
 		      	</ul>
 
 		      	<ul class="nav navbar-nav navbar-right">
-			        <li><a href="#" id="shopping-cart"><i class="fa fa-shopping-cart"></i> </a></li>
+			        <li><a href="#" id="shopping-cart"><i class="fa fa-shopping-cart"></i> <span class="badge" id="cart-badge">0</span></a></li>
 		      	</ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->

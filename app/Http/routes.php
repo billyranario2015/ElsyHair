@@ -5,6 +5,7 @@ Route::get('/', 'BaseController@index');
 //Route::get('home', 'HomeController@index');
 
 Route::get('/page/{page}','PageController@show');
+Route::get('/product/{product}/detail', 'ProductController@show');
 
 //admin
 Route::get('/app/dashboard', 'AdminController@index');

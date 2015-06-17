@@ -40,8 +40,8 @@
 										<p class="text-center amount"><b>Amount :</b> &euro; 10</p>
 										<div class="text-center">
 											<div class="btn-group text-center">
-												<a href="" class="btn btn-default" role="button">Details</a>
-												<a href="" class="btn btn-primary" role="button">Add to cart</a>
+												<a href="/product/product-a/detail" class="btn btn-default" role="button">Details</a>
+												<a href="" class="btn btn-primary add-to-cart" role="button">Add to cart</a>
 											</div>
 										</div>
 									</div>
@@ -64,8 +64,8 @@
 										<p class="text-center amount"><b>Amount :</b> &euro; 10</p>
 										<div class="text-center">
 											<div class="btn-group text-center">
-												<a href="" class="btn btn-default" role="button">Details</a>
-												<a href="" class="btn btn-primary" role="button">Add to cart</a>
+												<a href="/product/product-a/detail" class="btn btn-default" role="button">Details</a>
+												<a href="" class="btn btn-primary add-to-cart" role="button">Add to cart</a>
 											</div>
 										</div>
 									</div>
@@ -88,8 +88,8 @@
 										<p class="text-center amount"><b>Amount :</b> &euro; 10</p>
 										<div class="text-center">
 											<div class="btn-group text-center">
-												<a href="" class="btn btn-default" role="button">Details</a>
-												<a href="" class="btn btn-primary" role="button">Add to cart</a>
+												<a href="/product/product-a/detail" class="btn btn-default" role="button">Details</a>
+												<a href="" class="btn btn-primary add-to-cart" role="button">Add to cart</a>
 											</div>
 										</div>
 									</div>
@@ -114,8 +114,8 @@
 										<p class="text-center amount"><b>Amount :</b> &euro; 10</p>
 										<div class="text-center">
 											<div class="btn-group text-center">
-												<a href="" class="btn btn-default" role="button">Details</a>
-												<a href="" class="btn btn-primary" role="button">Add to cart</a>
+												<a href="/product/product-a/detail" class="btn btn-default" role="button">Details</a>
+												<a href="" class="btn btn-primary add-to-cart" role="button">Add to cart</a>
 											</div>
 										</div>
 									</div>
@@ -138,8 +138,8 @@
 										<p class="text-center amount"><b>Amount :</b> &euro; 10</p>
 										<div class="text-center">
 											<div class="btn-group text-center">
-												<a href="" class="btn btn-default" role="button">Details</a>
-												<a href="" class="btn btn-primary" role="button">Add to cart</a>
+												<a href="/product/product-a/detail" class="btn btn-default" role="button">Details</a>
+												<a href="" class="btn btn-primary add-to-cart" role="button">Add to cart</a>
 											</div>
 										</div>
 									</div>
@@ -162,8 +162,8 @@
 										<p class="text-center amount"><b>Amount :</b> &euro; 10</p>
 										<div class="text-center">
 											<div class="btn-group text-center">
-												<a href="" class="btn btn-default" role="button">Details</a>
-												<a href="" class="btn btn-primary" role="button">Add to cart</a>
+												<a href="/product/product-a/detail" class="btn btn-default" role="button">Details</a>
+												<a href="" class="btn btn-primary add-to-cart" role="button">Add to cart</a>
 											</div>
 										</div>
 									</div>
@@ -179,4 +179,9 @@
 		<div class="clearfix"></div>
 	</section>
 
+@stop
+
+
+@section('script')
+	<script type="text/javascript" src="{{ asset('js/addtocart.js') }}"></script>
 @stop

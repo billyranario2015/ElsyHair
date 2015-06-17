@@ -9,12 +9,19 @@
 		  	</ol>
 
 		 	<div class="carousel-inner" role="listbox">
-			    <div class="item item1 active">
-			      <img src="{{ asset('images/woman-1.png') }}" alt="woman" class="animated slideInUp">
-			      <div class="carousel-caption">
-			        <h1 class="animated slideInUp">Savoir-faire et<br/>professionnalisme</h1>
-			      </div>
+			    <div class="item item1">
+			      	<img src="{{ asset('images/woman-1.png') }}" alt="woman" class="animated slideInUp">
+			      	<div class="carousel-caption">
+			        	<h1 class="animated slideInUp">Expert &amp; Professional<br/>on all hair types</h1>
+			      	</div>
 			    </div>
+			    <div class="item item2 active">
+			      	<img src="{{ asset('images/woman_red_hair.png') }}" alt="woman" class="animated slideInUp">
+			      	<div class="carousel-caption">
+			        	<h1 class="animated slideInUp">Expert &amp; Professional<br/>on all hair types</h1>
+			      	</div>
+			    </div>
+
 		  	</div>
 
 		  <!-- Controls -->
