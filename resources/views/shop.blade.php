@@ -15,8 +15,11 @@
 					<div id="category-box">
 						<p class="category-title"><b>:: Categories</b></p>
 						<ul class="category-list">
-							<li class="active"><a href=""><i class="fa fa-caret-right"></i> Category One</a></li>
-							<li><a href=""><i class="fa fa-caret-right"></i> Category Two</a></li>
+							<li class="active"><a href=""><i class="fa fa-caret-right"></i> Hair Salon Equipment</a></li>
+							<li><a href=""><i class="fa fa-caret-right"></i> Dryers</a></li>
+							<li><a href=""><i class="fa fa-caret-right"></i> Salon Accessories</a></li>
+							<li><a href=""><i class="fa fa-caret-right"></i> Shampoo Bowls</a></li>
+							<li><a href=""><i class="fa fa-caret-right"></i> Nail Salon Equipment</a></li>
 						</ul>
 					</div>
 				</div>
@@ -173,10 +176,14 @@
 					</div>
 				</div>
 				<div class="clearfix"></div>
+				@include('sections.latest-products')
 			</div>
 			
 		</div>
 		<div class="clearfix"></div>
+		@include('sections.comments')				
+
+
 	</section>
 
 @stop

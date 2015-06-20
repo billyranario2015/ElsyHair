@@ -6231,3 +6231,7 @@ label,
 .checkbox label {
   font-weight: 300;
 }
+section#header div#top-nav nav.navbar div div.collapse ul.navbar-right li:first-child {
+  padding: 12px;
+  font-size: 18px;
+}

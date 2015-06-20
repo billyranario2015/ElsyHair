@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="{{ asset('css/animate.css') }}">
 		<link rel="stylesheet" href="{{ asset('css/elsystyle.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 
 		@yield('styles')
 

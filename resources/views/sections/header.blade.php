@@ -48,8 +48,12 @@
 			        <li @if ($data['pagename'] == 'contact') class="active" @endif><a href="{{ url('/page/contact') }}">Contact</a></li>
 			        <li @if ($data['pagename'] == 'news') class="active" @endif><a href="{{ url('page/news') }}">News</a></li>
 		      	</ul>
-
-		      	<ul class="nav navbar-nav navbar-right">
+		      	<ul class="nav navbar-nav navbar-right" id="menu-right">
+		      		<li>
+		      			<span>Call Us</span>: &nbsp;
+		      			<i class="fa fa-phone"></i>
+		      			+123 456 7890
+		      		</li>
 			        <li><a href="#" id="shopping-cart"><i class="fa fa-shopping-cart"></i> <span class="badge" id="cart-badge">0</span></a></li>
 		      	</ul>
 		    </div><!-- /.navbar-collapse -->

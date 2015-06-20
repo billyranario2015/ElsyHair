@@ -16,12 +16,14 @@
 		</div>
 		<div class="col-md-4">
 			<div class="block services">
-				<h3 class="title">Our Services</h3>
+				<h3 class="title">Visit</h3>
 				<div class="services">
 					<ul>
-						<li><a href=""><i class="fa fa-caret-right"></i> Service One</a> </li>
-						<li><a href=""><i class="fa fa-caret-right"></i> Service Two</a> </li>
-						<li><a href=""><i class="fa fa-caret-right"></i> Service Three</a> </li>
+						<li><a href="{{ url( '/' ) }}"><i class="fa fa-caret-right"></i> Home</a> </li>
+						<li><a href="{{ url( '/page/gallery' ) }}"><i class="fa fa-caret-right"></i> Gallery</a> </li>
+						<li><a href="{{ url( '/page/shop' ) }}"><i class="fa fa-caret-right"></i> Shop</a> </li>
+						<li><a href="{{ url( '/page/contact' ) }}"><i class="fa fa-caret-right"></i> Contact</a> </li>
+						<li><a href="{{ url( '/page/news' ) }}"><i class="fa fa-caret-right"></i> News</a> </li>
 					</ul>
 				</div>
 			</div>
